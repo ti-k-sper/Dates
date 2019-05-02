@@ -43,6 +43,13 @@ Tout d'abord nous allons faire quelques recherches :
 
 - Remplir au fur et à mesure le readme.md
 
+### Etape 2 :  
+
+- Maquette papier :  
+![maquette](assets/img/maquette.jpg)
+
+
+
 
   
   
