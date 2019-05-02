@@ -35,10 +35,14 @@ Tout d'abord nous allons faire quelques recherches :
 
 ## Cheminement création page: 
 
+### Etape 1 :  
+
 - Préparer un tableau backlog sur trello :  
   - https://trello.com/b/lQtlXf8f/tableau-les-dates
   - au fur et à mesure, le compléter avec de nouveaux backlogs
-- 
+
+- Remplir au fur et à mesure le readme.md
+
 
   
   
