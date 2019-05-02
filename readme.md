@@ -48,7 +48,16 @@ Tout d'abord nous allons faire quelques recherches :
 - Maquette papier :  
 ![maquette](assets/img/maquette.jpg)
 
+### Etape 3 :  
 
+- Préparer le ou les algorythm, sur papier, pour calculer notre âge en jour, et en années, en fonction des planètes
+
+### Etape 4 :  
+
+- Préparer le squelette principale du site sur le fichier index.html
+- Linker le fichier script.js dans le fichier index.html
+- Linker le fichier styles.css dans le fichier index.html
+- Faire une mise en forme générale du site avec le styles.css
 
 
   
