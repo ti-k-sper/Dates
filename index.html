@@ -17,31 +17,75 @@
 
 		Etonnez vous même par votre jeunesse ... si seulement vous etièz né(e) sur une autre planète... </p>
 	</section>
-	<section class="formCalcul">
+	<section class="calculate">
 		<form>
 			<h2>Votre date de naissance</h2>
-			<div class="form_row">
-				<div class="form">
+			<div>
+				<div>
 					<label>Jour :</label>
-					<input type="text" name="day" value="JJ" required/>
+					<input type="text" name="day" value="JJ" id="day" required/>
 				</div>
-				<div class="form">
+				<div>
 					<label>Mois :</label>
-					<input type="text" name="month" value="MM" required/>
+					<input type="text" name="month" value="MM" id="month" required/>
 				</div>
-				<div class="form">
+				<div>
 					<label>Année :</label>
-					<input type="text" name="year" value="AAAA" required/>
+					<input type="text" name="year" value="AAAA" id="year" required/>
 				</div>
 			</div>
 			<p>Cliquez sur une planète pour découvrir votre âge...</p>
-			<div>
-				<input type="image" name="mercure" src="assets/img/mercure.jpg" alt="Mercure" onclick="">
-			</div>
 		</form>
+		<div id="sys_solaire">
+			<div>
+				<img src="assets/img/planete/01_soleil.jpg" alt="Soleil" />
+			</div>
+			<div>
+				<input type="image" name="mercure" src="assets/img/planete/02_mercure.jpg" alt="Mercure" onclick="calculAge(58.6, 87.97, 'Mercure')">
+			</div>
+			<div>
+				<input type="image" name="venus" src="assets/img/planete/03_venus.jpg" alt="Venus" onclick="calculAge(243, 224.7, 'Vénus')">
+			</div>
+			<div>
+				<input type="image" name="terre" src="assets/img/planete/04_terre.jpg" alt="Terre" onclick="calculAge(1, 365.26, 'Terre')">
+			</div>
+			<div>
+				<input type="image" name="mars" src="assets/img/planete/05_mars.jpg" alt="Mars" onclick="calculAge(1.03, 686.98, 'Mars')">
+			</div>
+			<div>
+				<input type="image" name="jupiter" src="assets/img/planete/06_jupiter.jpg" alt="Jupiter" onclick="calculAge(0.41, 4332.71, 'Jupiter')">
+			</div>
+			<div>
+				<input type="image" name="saturne" src="assets/img/planete/07_saturne.jpg" alt="Saturne" onclick="calculAge(0.45, 10759.5, 'Saturne')">
+			</div>
+			<div>
+				<input type="image" name="uranus" src="assets/img/planete/08_uranus.jpg" alt="Uranus" onclick="calculAge(0.72, 30685, 'Uranus')">
+			</div>
+			<div>
+				<input type="image" name="neptune" src="assets/img/planete/09_neptune.jpg" alt="Neptune" onclick="calculAge(0.67, 60190, 'Neptune')">
+			</div>
+		</div>
+		<div id="result">
+			<div>
+				<div>
+					<label>Vous avez sur Terre, en jours :</label>
+					<input type="text" name="earthDay" id="earthDay" />
+				</div>
+				<div>
+					<label>Si vous étiez née sur :</label>
+					<input type="text" name="planete" id="planete" />
+				</div>
+				<div>
+					<label>vous auriez en jours:</label>
+					<input type="text" name="planeteDay" id="planeteDay" />
+				</div>
+				<div>
+					<label>... ou en années :</label>
+					<input type="text" name="planeteYear" id="planeteYear" />
+				</div>
+			</div>
+		</div>
 	</section>
-
-
 <script type="text/javascript" src="assets/js/script.js" ></script>
 </body>
 </html>

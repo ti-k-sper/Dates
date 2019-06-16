@@ -5,13 +5,14 @@
 ## Exercice:  
 
 A l'aides d'un algorythm sur javascript, ainsi que l'utilisation de html et css, nous devons créer une page qui nous indiquera, une fois notre date de naissance envoyée, notre age sur :  
-- **Terre**
-- **Vénus**
 - **Mercure**
-- **Jupiter**
+- **Vénus**
+- **Terre**
 - **Mars**
+- **Jupiter**
 - **Saturne**
-- **Pluton (rip)**
+- **Uranus**
+- **Neptune**
 
 ![Le système solaire](https://static.education.francetv.fr/images/1680x221/1554905014/le-systeme-solaire-2.jpg)
 
@@ -58,6 +59,17 @@ Tout d'abord nous allons faire quelques recherches :
 - Linker le fichier script.js dans le fichier index.html
 - Linker le fichier styles.css dans le fichier index.html
 - Faire une mise en forme générale du site avec le styles.css
+- Préparer image pour le fond, et les planètes
+
+### Etape 5 :  
+
+- Faire une fonction pour calculer l'age (calculAge)
+- Vérifier que cela fonctionne en fonction des planètes
+
+### Etape 6 (en cours) :  
+
+- Modifier la mise en forme "mobile first"
+
 
 
   
