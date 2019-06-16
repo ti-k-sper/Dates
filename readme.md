@@ -66,9 +66,14 @@ Tout d'abord nous allons faire quelques recherches :
 - Faire une fonction pour calculer l'age (calculAge)
 - Vérifier que cela fonctionne en fonction des planètes
 
-### Etape 6 (en cours) :  
+### Etape 6 :  
 
 - Modifier la mise en forme "mobile first"
+- Faire du media query (à faire)
+
+### Etape 7 :  
+
+- Création "gh-pages"
 
 
 

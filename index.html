@@ -10,17 +10,14 @@
 	</header>
 	<section class="description">
 		<p>Une année sur terre compte 365 jours, 52 semaines ou 12 mois. Un jour sur terre compte 24 heures, une heure 60 minutes et chaque minute 60 secondes.<br />
-
 		Ces unités de temps varient selon la planète. Sur certaines planètes un an sur terre ne signifie qu'une fraction d'un jour. Sur d'autres planètes un jour passe très très vite...<br />
-
-		Imaginez que par certains circonstances vous êtes né(e) sur une autre planète dans notre système de soleil, quel serait votre âge ? Voulez-vous le savoir ? Remplissez ci-dessous votre date de naissance (p.e. 20 septembre 1961 = 20 09 1961) et sélectionnez une planète.<br />
-
-		Etonnez vous même par votre jeunesse ... si seulement vous etièz né(e) sur une autre planète... </p>
-	</section>
+		Imaginez que par certains circonstances vous êtes né(e) sur une autre planète dans notre système de soleil, quel serait votre âge ? Voulez-vous le savoir ? Remplissez ci-dessous votre date de naissance (p.e. 20 septembre 1961 = 20 09 1961) et sélectionnez une planète.</p>
+		<p>Etonnez vous même par votre jeunesse ... si seulement vous etièz né(e) sur une autre planète...</p>
+	</section><hr />
 	<section class="calculate">
 		<form>
 			<h2>Votre date de naissance</h2>
-			<div>
+			<div class="insertBirthDay">
 				<div>
 					<label>Jour :</label>
 					<input type="text" name="day" value="JJ" id="day" required/>
@@ -34,9 +31,10 @@
 					<input type="text" name="year" value="AAAA" id="year" required/>
 				</div>
 			</div>
-			<p>Cliquez sur une planète pour découvrir votre âge...</p>
+			<hr />
+			<h3>Cliquez sur une planète pour découvrir votre âge...</h3>
 		</form>
-		<div id="sys_solaire">
+		<div class="sys_solaire">
 			<div>
 				<img src="assets/img/planete/01_soleil.jpg" alt="Soleil" />
 			</div>
@@ -65,7 +63,7 @@
 				<input type="image" name="neptune" src="assets/img/planete/09_neptune.jpg" alt="Neptune" onclick="calculAge(0.67, 60190, 'Neptune')">
 			</div>
 		</div>
-		<div id="result">
+		<div class="result">
 			<div>
 				<div>
 					<label>Vous avez sur Terre, en jours :</label>

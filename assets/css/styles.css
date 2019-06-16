@@ -7,13 +7,92 @@
 body{
 	background: url(../img/voie_lactee_etoiles_fond.jpeg);
 	color: white;
+	width: 90%;
+	margin-left: 5%;
 }
 
-#sys_solaire{
+header{
+	text-align: center;
+	color: blue;
+	font-size: 50px;
+	font-style: bold;
+	margin-top: 10%;
+	margin-bottom: 10%
+}
+
+.description{
+	font-size: 20px;
+}
+
+.description p{
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+hr{
+	font-size: 2px;
+}
+
+.calculate h2{
+	text-align: center;
+	color: blue;
+	font-size: 40px;
+	font-style: bold;
+	margin-top: 3%;
+	margin-bottom: 3%;
+}
+
+.insertBirthDay{
+	font-size: 40px;
+	display: grid;
+	grid-template-rows: 1fr;
+	grid-template-areas: ". . .";
+	grid-gap: 2%;
+	margin-bottom: 3%;
+}
+
+.insertBirthDay input{
+	width: 40%;
+	height: 40px;
+	font-size: 40px;
+}
+
+h3{
+	font-size: 15px;
+	text-align: center;
+	color: red;
+	margin-top: 3%;
+	margin-bottom: 3%;
+}
+
+.sys_solaire{
 	border-radius: 15px;
 	display: grid;
 	grid-template-rows: 1fr;
 	grid-template-areas: ". . . . . . . . .";
 	grid-gap: 0;
 	overflow-x: scroll;
+	margin-bottom: 5%;
+}
+
+.result{
+	background-color: grey;
+	text-align: right;
+	font-size: 40px;
+	color: black;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-areas: ". . . .";
+	grid-gap: 2%;
+	margin-bottom: 10%;
+	padding: 2%;
+}
+
+
+
+.result input{
+	width: 30%;
+	height: 40px;
+	font-size: 40px;
+	color: black;
 }
