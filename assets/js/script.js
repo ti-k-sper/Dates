@@ -11,9 +11,9 @@ function calculAge(diffPlaneteDay, diffPlaneteYear, planete){
 	ageYear = ageDay / dayYear;
 	
 	if (ageDay > 0){
-		agePlaneteDay = parseFloat(ageDay / diffPlaneteDay).toFixed(2);
-		agePlaneteYear = parseFloat(ageDay / diffPlaneteYear).toFixed(2);
-		ageDay = parseFloat(ageDay).toFixed(2);
+		agePlaneteDay = parseFloat(ageDay / diffPlaneteDay).toFixed(1);
+		agePlaneteYear = parseFloat(ageDay / diffPlaneteYear).toFixed(1);
+		ageDay = parseFloat(ageDay).toFixed(1);
 		document.getElementById("earthDay").value = ageDay;
 		document.getElementById("planete").value = planete;
 		document.getElementById("planeteDay").value = agePlaneteDay;
